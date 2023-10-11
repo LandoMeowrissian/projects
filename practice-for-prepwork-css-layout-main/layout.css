@@ -10,35 +10,33 @@ body {
  margin-right: 400px;
 }
 
-/* form {
-  position: relative;
-  height: 200px;
+form {
+  position: absolute;
+  height: 600px;
   width: 750px; 
   display: block;
   box-sizing: border-box;
   background-color: antiquewhite;
-} */
+}
 
-/* fieldset {
-  height: 200px;
-  width: 750px; 
+fieldset {
   position: relative;
-  background-color: coral;
-} */
+  height: 600px;
+  width: 750px; 
+}
 
 
-/* div {
+div[name] {
   position: relative;
   margin-bottom: 10px;
-  /* background-color: red; 
+  background-color: red; 
   display: block;
   overflow: hidden;
-} */
+}
 
 
 label {
   box-sizing: border-box;
-  background-color: chartreuse;
   color: black;
   position: relative;
   left: 300px;
@@ -53,6 +51,8 @@ input{
   background-color: aquamarine;
   left: 275px;
 }
+
+
 select {
   position: relative;
   left: 275px;
@@ -61,8 +61,8 @@ select {
 
 p {
   position: relative;
-  display: inline-block;
-  background-color: beige;
-  left: 275px;
+  display: block;
+  left: 225px;
+  right: 300px;
   width: 250px;
 }
