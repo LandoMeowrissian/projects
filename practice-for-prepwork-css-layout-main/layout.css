@@ -1,0 +1,52 @@
+body {
+  display: block;
+ box-sizing: border-box;
+ border: 100px black;
+ position: absolute;
+ height: 500px;
+ width: 750px;
+ margin-top: 100px;
+ margin-bottom: 100px;
+ margin-left: 400px;
+ margin-right: 400px;
+}
+
+/* form {
+  position: relative;
+  box-sizing: border-box;
+ 
+} */
+
+fieldset {
+  position: relative;
+}
+
+
+div {
+  position: relative;
+  background-color: red;
+  display: block;
+}
+
+label {
+  background-color: chartreuse;
+  color: black;
+  position: relative;
+  padding: 10px;
+  left: 300px;
+  right: 300px;
+  display: block;
+}
+
+
+input{
+  position: relative;
+  background-color: aquamarine;
+  left: 275px;
+}
+
+#role {
+  display: block;
+  background-color: aqua;
+  left: 300px
+}
