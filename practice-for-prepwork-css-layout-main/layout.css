@@ -73,7 +73,6 @@ legend {
 }
 
 .choose {
-  justify-content: space-around;
   justify-content: center;
   text-align: center;
   margin: auto;
@@ -82,28 +81,24 @@ legend {
 }  
 
 .language {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-} 
-
-
-.language label {
-  /* order: 1; */
+  justify-content: center;
+  text-align: center;
   position: relative;
-  display: inline-block;
+  margin: auto;
+} 
+/*
+.language label {
+  /* order: 1; 
+  display: block;
   background-color: aqua;
   margin: auto;
-  padding: 5px;
 }
 
 .language input {
-  order: 2;
-  position: relative;
-  display: inline-block;
+  display: block;
   background-color: aquamarine;
   margin: auto;
-}
+} */
 
 .comments {
   display: flex;
@@ -117,7 +112,6 @@ legend {
   background-color: aqua;
   width: 100px;
   margin: auto;
-  padding: 5px;
 }
 
 
