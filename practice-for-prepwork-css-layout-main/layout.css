@@ -53,16 +53,17 @@ legend {
 
 
 .status, .date {
+  position: relative;
   display: inline-block;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   margin: auto;
 }
 
 .status label, .date label {
   position: relative;
   display: block;
-  align-content: center; 
+  align-items: center; 
 }
 
 .status select, .date input {
@@ -82,37 +83,51 @@ legend {
 
 .language {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
-  align-items: flex-start;
 } 
+
+
+.language label {
+  /* order: 1; */
+  position: relative;
+  display: inline-block;
+  background-color: aqua;
+  margin: auto;
+  padding: 5px;
+}
 
 .language input {
   order: 2;
+  position: relative;
   display: inline-block;
-  justify-content: center;
-  text-align: center;
+  background-color: aquamarine;
   margin: auto;
 }
 
-.language label {
-  order: 1;
-  display: inline-block;
-  justify-content: center;
-  text-align: center;
-  margin: auto;
- 
-}
-
-/* .language label {
+.comments {
   display: flex;
-  background-color: aqua;
-  margin: auto;
-} */
+  flex-direction: column;
+}
 
-/* .language input {
+.comments label {
+  position: relative;
   display: block;
-  box-sizing: border-box;
+  align-items: center;
   background-color: aqua;
+  width: 100px;
   margin: auto;
-} */
+  padding: 5px;
+}
+
+
+.comments textarea {
+  position: relative;
+  display: block;
+  background-color: aquamarine;
+  margin: auto;
+}
+
+
+
+
