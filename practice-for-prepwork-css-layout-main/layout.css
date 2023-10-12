@@ -40,7 +40,6 @@ legend {
   background-color: aqua;
   width: 100px;
   margin: auto;
-  padding: 5px;
 }
 
 
@@ -57,18 +56,20 @@ legend {
   display: inline-block;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  left: 200px;
+  padding: 5px;
 }
 
 .status label, .date label {
   position: relative;
   display: block;
   align-items: center; 
+  margin: auto;
+  left: 25px
 }
 
 .status select, .date input {
   display: block;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -77,7 +78,6 @@ legend {
   text-align: center;
   margin: auto;
   width: 350px;
-  padding: 5px;
 }  
 
 .language {
@@ -86,19 +86,7 @@ legend {
   position: relative;
   margin: auto;
 } 
-/*
-.language label {
-  /* order: 1; 
-  display: block;
-  background-color: aqua;
-  margin: auto;
-}
 
-.language input {
-  display: block;
-  background-color: aquamarine;
-  margin: auto;
-} */
 
 .comments {
   display: flex;
@@ -120,7 +108,25 @@ legend {
   display: block;
   background-color: aquamarine;
   margin: auto;
+  padding: 5px;
 }
+
+.newsletter {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 5px;
+}
+
+.submit {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  font-size: 36px;
+  padding: 30px 60px;
+}
+
+
 
 
 
