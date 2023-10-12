@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="layout.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <form action="/form-handling-url" method="post">
             <fieldset>
             <legend>Add User</legend>
-        
+
             <div class="name">
                 <label for="firstName">First Name</label>
                 <input type="text" id="firstName" name="first_name">
             </div>
-        
+
             <div class="name">
                 <label for="lastName">Last Name</label>
                 <input type="text" id="lastName" name="last_name">
             </div>
-        
+
             <div class="name">
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email_address">
             </div>
-        
-            <div class="status">
-                <label for="status">Status</label>
-                <label id="date"for="date">Date</label>
-            </div>
 
-            <div class="widget">
-                <select id="role" name="user_role_name">
-                <option value="student">Student</option>
-                <option value="instructor">Instructor</option>
-                <option value="guest">Guest</option>
-                </select>
+              <div class="status">
+                  <label for="status">Status</label>
+                  <select id="role" name="user_role_name">
+                      <option value="student">Student</option>
+                      <option value="instructor">Instructor</option>
+                      <option value="guest">Guest</option>
+                  </select>
+              </div>
 
-                <input type="date" id="date" name="date">
-            </div>
-            
-            <div class="language">
+              <div class="date">
+                  <label id="date" for="date">Date</label>
+                  <input type="date" id="date" name="date">
+              </div>
+
+              <div class="choose">
                 <p>Choose your favorite Web language:</p>
+              </div>
+
+            <div class="language">
+                
                 <input type="radio" id="html" name="fav_language" value="HTML">
                 <label for="html">HTML</label><br>
                 <input type="radio" id="css" name="fav_language" value="CSS">
@@ -60,12 +63,23 @@
                 <input type="checkbox" id="terms" name="terms" value="Terms">
                 <label for="terms"> Agree to terms and conditions</label>
             </div>
-        
+
             <div>
                 <button type="submit">Submit</button>
             </div>
-        
+
             </fieldset>
         </form>
     </body>
 </html>
+
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <!-- <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html> -->

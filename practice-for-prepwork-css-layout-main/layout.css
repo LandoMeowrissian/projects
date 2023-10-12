@@ -1,5 +1,8 @@
 body {
   background-color: crimson;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 form {
@@ -25,6 +28,10 @@ legend {
  border: 1px solid black;
 } 
 
+.name {
+  text-align: center;
+}
+
 
 .name label {
   position: relative;
@@ -36,12 +43,6 @@ legend {
   padding: 5px;
 }
 
-/* .email {
-  position: relative;
-  display: block;
-  margin: auto;
-} */
-
 
 .name input {
   position: relative;
@@ -50,47 +51,68 @@ legend {
   margin: auto;
 }
 
-.status label {
-  box-sizing: border-box;
-  position: relative;
+
+.status, .date {
   display: inline-block;
-  background-color: aqua;
-  left: 250px;
-  align-items: center;
+  justify-content: center;
+  text-align: center;
   margin: auto;
 }
 
-.widget select,
-.widget input {
-  background-color: aqua;
-  box-sizing: border-box;
-  position: relative;
-  margin: auto;
-  left: 200px
-}
-
-
-.language p {
-  box-sizing: border-box;
+.status label, .date label {
   position: relative;
   display: block;
+  align-content: center; 
+}
+
+.status select, .date input {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.choose {
+  justify-content: space-around;
+  justify-content: center;
+  text-align: center;
   margin: auto;
   width: 350px;
-  left: 50px;
+  padding: 5px;
+}  
+
+.language {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
 } 
 
-.language label {
-  box-sizing: border-box;
-  position: relative;
+.language input {
+  order: 2;
   display: inline-block;
-  background-color: aqua;
+  justify-content: center;
+  text-align: center;
   margin: auto;
 }
 
-.language input {
-  box-sizing: border-box;
-  position: relative;
+.language label {
+  order: 1;
   display: inline-block;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+ 
+}
+
+/* .language label {
+  display: flex;
   background-color: aqua;
   margin: auto;
-}
+} */
+
+/* .language input {
+  display: block;
+  box-sizing: border-box;
+  background-color: aqua;
+  margin: auto;
+} */
