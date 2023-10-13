@@ -1,4 +1,6 @@
-
+body {
+  background-color: brown;
+}
 
 nav {
   position: relative;
@@ -8,4 +10,13 @@ nav {
 
 .menu {
   justify-content: space-between;
+}
+
+p {
+  background-color: aqua;
+  box-sizing: border-box;
+  height: 400px;
+  width: 600px;
+  margin: auto;
+  font-size: large;
 }
