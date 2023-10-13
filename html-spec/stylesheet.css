@@ -2,6 +2,13 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.main {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .top {
   display: flex;
   justify-content: space-between;
@@ -32,6 +39,7 @@ nav a {
 }
 
 h1 {
+  justify-content: center;
   position: relative;
   padding: 10px;
   height: 100px;
@@ -80,4 +88,3 @@ p {
   box-sizing: border-box;
   border: 3px solid black;
 }
-
