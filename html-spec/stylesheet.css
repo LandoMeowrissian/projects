@@ -9,38 +9,75 @@ body {
   padding: 5px;
 }
 
-img {
-  height: auto;
-  max-width: 100px;
+.top a {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
 }
 
 nav {
-  background-color: cyan;
   padding: 10px;
   height: 50px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-around;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 nav a {
+  color: black;
   text-decoration: none;
   margin: auto;
-  
 }
 
 h1 {
   position: relative;
-  background-color: cyan;
   padding: 10px;
   height: 100px;
   width: 500px;
-  left: 50px;
+  left: 100px;
   box-sizing: border-box;
   display: block;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border: 3px solid black;
   text-align: flex-start;
 }
+
+.socials {
+  position: relative;
+  left: 350px;
+}
+
+h2 {
+  position: relative;
+  padding: 10px;
+  height: 200px;
+  width: 500px;
+  left: 100px;
+  box-sizing: border-box;
+  display: block;
+  border: 3px solid black;
+}
+
+p {
+  position: relative;
+  padding: 5px;
+  height: 100px;
+  width: 500px;
+  left: 100px;
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+}
+
+.references {
+  position: relative;
+  justify-content: space-evenly;
+  display: flex;
+  height: 200px;
+  width: 500px;
+  left: 100px;
+  box-sizing: border-box;
+  border: 3px solid black;
+}
+
